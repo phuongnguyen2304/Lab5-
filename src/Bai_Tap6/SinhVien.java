@@ -72,7 +72,7 @@ class SinhVien {
 }
 
  class FileReadWriteSinhVien {
-
+//COmiit
     // Phương thức lưu đối tượng sinh viên vào file
     public static boolean luuSinhVienVaoFile(SinhVien sv, String filePath) {
         try (FileWriter writer = new FileWriter(filePath, true)) {
